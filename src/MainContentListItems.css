@@ -1,0 +1,55 @@
+.dish-list{
+    margin-top: -80px;
+}
+.list_item_header{
+    margin-top: 100px;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 0px 0px 12px 0px;
+}
+.list_item_header > h2{
+    text-align: center;
+    padding: 0.5rem;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    background-color: rgb(254, 252, 232);
+    margin: 0px;
+}
+.list_item_header > p{
+    text-align: center;
+    padding-bottom: 8px;
+    margin: 0px;
+}
+.list_item_list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+    padding: 0px;
+    margin: 20px 0px 0px 0px;
+}
+.list_item_header_hidden{
+    display: none;
+}
+.hidden{
+    display: none;
+}
+.clicked-menu{
+    margin-top: -80px;
+}
+.clicked-menu >ul{
+    animation-name: clicked_animation;
+    animation-duration: 4s;
+}
+@keyframes clicked_animation {
+    from{
+        background-color: rgb(240, 243, 139);
+    }
+    to{
+        background-color: white;
+    }
+}
+.hidden{
+    display: none;
+}

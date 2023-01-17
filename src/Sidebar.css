@@ -1,0 +1,120 @@
+.slidebar_container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 60px 0px 0px 0px;
+    position: sticky;
+    top: 75px;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+}
+.slidebar_lists{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+.sidebar_lists_searchbar{
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.sidebar_lists_searchbar > div{
+    display: flex;
+}
+.sidebar_lists_searchbar > div > div{
+    display: flex;
+    align-items: center;
+    padding-right: 3px;
+    padding-left: 3px;
+    border: 2px solid;
+    border-right: none;
+}
+
+.sidebar_lists_searchbar > div > input{
+    border-width: 2px;
+    padding: 4px 4px 4px 8px;
+}
+.is-current >a >p{
+   background-color: black;
+   color: white;
+}
+.slidebar_list > a > p{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 9999px;
+    width: fit-content;
+    height: fit-content;
+    margin: 0px;
+    text-align: end;
+}
+.slidebar_list{
+    display: flex;
+    justify-content: flex-end;
+    flex-shrink: 0;
+}
+.slidebar_list > a{
+   text-decoration: none;
+   color: black;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+.slidebar_list > a.active{
+    text-decoration:underline;
+    color: black;
+ }
+ .slidebar_lists > input{
+    border-width: 2px;
+    padding: 4px 4px 4px 38px;
+ }
+ .slidebar_lists > SearchIcon{
+    position: absolute;
+    left: 20px;
+}
+ @media only screen and (max-width: 990px) {
+    .slidebar_lists{
+        flex-direction: row ;
+    }
+    .slidebar_lists > .scrollspy{
+        display: flex;
+        flex-direction: row;
+    }
+    .slidebar_list > a > p{
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .sidebar_lists_searchbar{
+        display: none;
+    }
+  }
+@media only screen and (min-width: 990px) {
+    .slidebar_container{
+        height: 80vh;
+    }
+    .slidebar_lists > div{
+        display: none;
+    }
+ }
+ @media only screen and (max-width: 960px) {
+    .slidebar_container{
+        height: 80px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        overflow-y: hidden;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 0px;
+        top: 75px;
+    }
+    
+    .col-lg-3{
+        position: sticky;
+        top: 0px;
+        background-color: white;
+        height: max-content;
+    }
+}

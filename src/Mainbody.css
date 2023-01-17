@@ -1,0 +1,25 @@
+.maincontent{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.maincontent_lists{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 80px;
+}
+.maincontent_menu{
+    background: rgb(249, 249, 249);
+    padding: 12px;
+    border-radius: 6px;
+    margin: 24px 0px;
+}
+.maincontent_menu >p{
+   font-size: 12px;
+   margin: 0px;
+}

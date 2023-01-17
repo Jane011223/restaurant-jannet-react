@@ -1,0 +1,22 @@
+.body_maincontent{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.row{
+    width: 100%;
+    margin: 0px;
+}
+.row > div{
+    margin: 0px;
+}
+@media only screen and (max-width: 990px) {
+   .body_maincontent{
+    max-width: 740px;
+   }
+  }

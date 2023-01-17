@@ -1,0 +1,14 @@
+.countBtn {
+  padding: 0px 10px;
+  font-size: 20px;
+  display: flex;
+  font-weight: 700;
+  background-color: yellow;
+  border-radius: 10px;
+  justify-content: center;
+}
+.plus-miusBtn {
+  border: none;
+  background-color: yellow;
+  font-size: 20px;
+}

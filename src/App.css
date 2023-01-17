@@ -1,0 +1,41 @@
+.app{
+  position: relative;
+  display: grid;
+  width: 100vw;
+}
+.app_header{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75px;
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  z-index: 10;
+  box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+}
+.app_body{
+  margin-top: 75px;
+  margin-bottom: 0px;
+  width: 100vw;
+  display: block;
+}
+.app_footer{
+  background: rgb(34, 34, 34);
+  padding: 12px 0px;
+  width: 100%;
+}
+@media only screen and (max-width: 960px) {
+  .app_header{
+    display: none;
+  }
+  .app_body{
+    margin-top: 0px;
+  }
+  .app_footer{
+    visibility: hidden;
+  }
+}

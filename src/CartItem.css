@@ -1,0 +1,55 @@
+.cart_item{
+    padding: 8px 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cart_item_text{
+    flex: 0.55;
+}
+.cart_item_btns{
+    flex: 0.225;
+}
+.cart_item > p{
+    flex: 0.225;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+    margin: 0px;
+    font-size: 14px;
+    text-align: right;
+}
+.cart_item_text > p{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+    margin: 0px;
+    font-size: 14px;
+}
+
+.cart_item_btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart_item_btns > p{
+    font-size: 1.125rem;
+    margin: 0px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.cart_item_btns > button{
+    color: white;
+    background-color: black;
+    font-size: 0.875rem;
+    padding: 0.25rem;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart_item_btns > button > RemoveIcon{
+    font-size: x-small;
+}
